@@ -1,0 +1,14 @@
+<script src="jquery-1.11.3.min.js"></script>
+<script src="process.js"></script>
+<div class="container" ng-controller="loginController">
+	<div class="tags">
+		<button class="" type="button" onclick="show_all users();">All Users</button>
+        <button class="" type="button" onclick="show_input_box_for_path();">Find files</button>
+        <div class="" id="input_div" style="display:none;">
+            <input type="text" id="path"/>
+            <input type="submit" onclick="show_files()" value="show files">
+        </div>
+	</div>
+    <div class="result" id="result_div">
+    </div>
+</div>
